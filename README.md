@@ -28,4 +28,11 @@ Main Axis - Left to right - Main start is the starting point and Main end is the
 Cross Axis - Top to bottom - Cross start is the starting point and Cross end is the ending point and length from cross start to cross end is called the cross size
 
 
-
+Flex Container Properties
+1. display - block level or inline level flex container - flex or inline-flex
+2. flex-direction - sets the direction of the main axis - row, row-reverse, column, column-reverse
+3. flex-wrap - Control the wrapping of flex items within the container - nowrap, wrap, wrap-reverse
+4. flex-flow - Shorthand for flex direction and flex wrap - <flex-direction><flex-wrap>
+5. justify-content - Align items and distribute any extra spacing in the parent container. The alignment is always along the main axis - flex-start, flex-end, center, space-between, space-around, space-evenly
+6. align-items - Align items along the cross axis - flex-start, flex-end, center, baseline, stretch
+7. align-content - Aligns lines of content along the cross axis and distribute any extra spacing in the parent container - flex-start, flex-end, center, space-between, space-around, stretch
